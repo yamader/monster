@@ -1,50 +1,55 @@
 <!DOCTYPE html>
-<html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>†魔剤†</title>
   <style>
-    body {
-        width: auto;
-        height: auto;
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        color: #0f0;
-        background-color: #000;
+    html, body {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      flex-direction: column;
+      background-color: #000;
+      color: #0f0;
     }
     main {
-        display: flex;
-        justify-content: center;
+      display: flex;
+      width: 100%;
+      max-height: 80%;
+      margin: auto;
+      flex-direction: column;
+      align-items: center;
     }
-    img,#monster {
-        width: auto;
-        max-width: 80%;
-        height: auto;
-        flex: 1;
+    img.monster {
+      max-width: 80%;
+      height: 100%;
     }
     footer {
-        width: 100%;
-        height: auto;
-        margin-top: auto;
-        text-align: center;
+      margin-top: auto;
+      text-align: center;
     }
   </style>
-  <link rel="apple-touch-icon" type="image/png" href="/icons/apple-touch-icon-180x180.png">
-  <link rel="icon" type="image/png" href="/icons/icon-192x192.png">
 </head>
 <body>
-  <header></header>
   <main>
-    <img src="monster.png" id="monster">
+    <img class="monster" src="monster.png">
+    <h2>News</h2>
+    <ul>
+      <li>2022/4/26 - 寄付を頂きました．</li>
+      <li>2022/4/30 - 寄付を頂きました．</li>
+    </ul>
   </main>
   <footer>
     <hr>
     <p>
-      <span>お問い合わせはTwitterへ</span><span>お願いします</span><br>
+      お問い合わせはTwitterへお願いします<br>
       ↓↓↓↓<br>
-      <a href="https://twitter.com/intent/tweet?screen_name=yamad_linuxer&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-lang="ja" data-show-count="false">Tweet to @yamad_linuxer</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <a href="https://twitter.com/intent/tweet?screen_name=_yamader" class="twitter-mention-button"
+        >Tweet to @_yamader</a
+      >
     </p>
   </footer>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>
-</html>
