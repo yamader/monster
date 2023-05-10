@@ -52,6 +52,7 @@
       <img class="monster" src="monster.png">
       <h2>News</h2>
       <ul>
+        <li>2023/5/10 - 寄付を頂きました。</li>
         <li>2023/1/24 - ワイルドカードドメインに対応しました。</li>
         <li>2022/10/24 - OGPを追加しました。</li>
         <li>2022/5/3 - Google Chromeでレイアウトが崩れる問題に気が付きました。</li>
