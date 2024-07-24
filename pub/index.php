@@ -67,7 +67,6 @@
         ↓↓↓↓<br>
         <a href="https://twitter.com/intent/tweet?screen_name=_yamader" class="twitter-mention-button">Tweet to @_yamader</a>
       </p>
-      <p>&copy; 2023 YamaD</p>
     </footer>
   </div>
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
